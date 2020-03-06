@@ -1,0 +1,11 @@
+D:\public\dev\csharp\CounterEvent\CounterEvent\bin\Debug\netcoreapp2.1\CounterEvent.deps.json
+D:\public\dev\csharp\CounterEvent\CounterEvent\bin\Debug\netcoreapp2.1\CounterEvent.runtimeconfig.json
+D:\public\dev\csharp\CounterEvent\CounterEvent\bin\Debug\netcoreapp2.1\CounterEvent.runtimeconfig.dev.json
+D:\public\dev\csharp\CounterEvent\CounterEvent\bin\Debug\netcoreapp2.1\CounterEvent.dll
+D:\public\dev\csharp\CounterEvent\CounterEvent\bin\Debug\netcoreapp2.1\CounterEvent.pdb
+D:\public\dev\csharp\CounterEvent\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.csprojAssemblyReference.cache
+D:\public\dev\csharp\CounterEvent\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.csproj.CoreCompileInputs.cache
+D:\public\dev\csharp\CounterEvent\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.AssemblyInfoInputs.cache
+D:\public\dev\csharp\CounterEvent\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.AssemblyInfo.cs
+D:\public\dev\csharp\CounterEvent\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.dll
+D:\public\dev\csharp\CounterEvent\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.pdb
