@@ -6,6 +6,7 @@ namespace CounterEvent
     {
         static Counter c;
         static Counter2 c2;
+        static Counter3 c3;
         static void Main(string[] args)
         {
             c = new Counter();
@@ -44,6 +45,27 @@ namespace CounterEvent
             };
 
             c2.run();
+
+
+            Console.WriteLine("------------------------------- Counter3 ----------------------------------------");
+
+            c3 = new Counter3();
+            c3.CounterStartHandler += (object sender, CounterEventArgs e) =>
+            {
+                Console.WriteLine($"COUNTER_START Count = {e.Count}");
+            };
+
+            c3.CounterChangeHandler += (object sender, CounterEventArgs e) =>
+            {
+                Console.WriteLine($"COUNTER_CHANGE Count = {e.Count}");
+            };
+
+            c3.CounterFinishHandler += (object sender, CounterEventArgs e) =>
+            {
+                Console.WriteLine($"COUNTER_FINISH Count = {e.Count}");
+            };
+
+            c3.run();
         }
 
         static void c_CounterFinishHandler(object sender, EventArgs e)

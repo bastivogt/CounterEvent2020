@@ -4,7 +4,10 @@ using System.Text;
 
 namespace CounterEvent
 {
-    class Counter
+
+
+
+    class Counter3
     {
 
         public int StartValue { get; set; } = 0;
@@ -28,38 +31,38 @@ namespace CounterEvent
 
 
         // Events
-        public event EventHandler CounterStartHandler;
-        public event EventHandler CounterFinishHandler;
-        public event EventHandler CounterChangeHandler;
+        public event EventHandler<CounterEventArgs> CounterStartHandler;
+        public event EventHandler<CounterEventArgs> CounterFinishHandler;
+        public event EventHandler<CounterEventArgs> CounterChangeHandler;
 
 
         // Event Methoden
-        protected virtual void OnCounterStart(EventArgs e)
+        protected virtual void OnCounterStart(CounterEventArgs e)
         {
-            if(this.CounterStartHandler != null)
+            if (this.CounterStartHandler != null)
             {
                 this.CounterStartHandler(this, e);
             }
         }
 
-        protected virtual void OnCounterChange(EventArgs e)
+        protected virtual void OnCounterChange(CounterEventArgs e)
         {
-            if(this.CounterChangeHandler != null)
+            if (this.CounterChangeHandler != null)
             {
                 this.CounterChangeHandler(this, e);
             }
         }
 
-        protected virtual void OnCounterFinish(EventArgs e)
+        protected virtual void OnCounterFinish(CounterEventArgs e)
         {
-            if(this.CounterFinishHandler != null)
+            if (this.CounterFinishHandler != null)
             {
                 this.CounterFinishHandler(this, e);
             }
         }
 
 
-        public Counter(int startValue = 0, int finishValue = 10, int stepValue = 1)
+        public Counter3(int startValue = 0, int finishValue = 10, int stepValue = 1)
         {
             this.StartValue = startValue;
             this.FinishValue = finishValue;
@@ -68,12 +71,13 @@ namespace CounterEvent
 
         public virtual void run()
         {
-            this.OnCounterStart(EventArgs.Empty);
-            for(this.Count = this.StartValue; this.Count < this.FinishValue; this.Count += this.StepValue)
+            this.Count = this.StartValue;
+            this.OnCounterStart(new CounterEventArgs(this.Count));
+            for (; this.Count < this.FinishValue; this.Count += this.StepValue)
             {
-                this.OnCounterChange(EventArgs.Empty);
+                this.OnCounterChange(new CounterEventArgs(this.Count));
             }
-            this.OnCounterFinish(EventArgs.Empty);
+            this.OnCounterFinish(new CounterEventArgs(this.Count));
         }
 
     }

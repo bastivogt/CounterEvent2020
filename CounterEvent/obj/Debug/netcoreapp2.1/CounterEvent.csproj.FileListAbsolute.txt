@@ -9,3 +9,13 @@ D:\public\dev\csharp\CounterEvent\CounterEvent\obj\Debug\netcoreapp2.1\CounterEv
 D:\public\dev\csharp\CounterEvent\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.AssemblyInfo.cs
 D:\public\dev\csharp\CounterEvent\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.dll
 D:\public\dev\csharp\CounterEvent\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.pdb
+D:\dev\csharp\CounterEvent2020\CounterEvent\bin\Debug\netcoreapp2.1\CounterEvent.deps.json
+D:\dev\csharp\CounterEvent2020\CounterEvent\bin\Debug\netcoreapp2.1\CounterEvent.runtimeconfig.json
+D:\dev\csharp\CounterEvent2020\CounterEvent\bin\Debug\netcoreapp2.1\CounterEvent.runtimeconfig.dev.json
+D:\dev\csharp\CounterEvent2020\CounterEvent\bin\Debug\netcoreapp2.1\CounterEvent.dll
+D:\dev\csharp\CounterEvent2020\CounterEvent\bin\Debug\netcoreapp2.1\CounterEvent.pdb
+D:\dev\csharp\CounterEvent2020\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.csprojAssemblyReference.cache
+D:\dev\csharp\CounterEvent2020\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.AssemblyInfoInputs.cache
+D:\dev\csharp\CounterEvent2020\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.AssemblyInfo.cs
+D:\dev\csharp\CounterEvent2020\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.dll
+D:\dev\csharp\CounterEvent2020\CounterEvent\obj\Debug\netcoreapp2.1\CounterEvent.pdb
